@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
-    border: 1px solid black;
+    border: 1px solid blue;
     /* test */
 }
 
@@ -35,7 +35,7 @@ a{
 
 }
 
-#logo{
+.logo{
     height: 60px;
     width: 180px;
     background-color: blueviolet;
@@ -197,4 +197,40 @@ section .link-container-last{
 }
 
                       /* /main */
+
+                      /* footer */
+
+footer{
+    height: 560px;
+
+
+    background-color: black;
+}
+
+.foot-container{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+
+    height: 500px; 
+}
+
+
+.foot-item{
+    width: 230px;
+}
+
+.footbar{
+    height: 60px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#register{
+    height: 60px;
+    width: 180px;
+    background-color: blueviolet;
+}
                      
