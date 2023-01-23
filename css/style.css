@@ -130,13 +130,71 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
  /*/ title */
 
                      /* /header */
 
+                     /* main */
+section{
+    height: 600px;
 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 
+}
 
+section.reverse{
+    flex-direction: row-reverse;
+}
 
+.img-container{
+    width: 550px;
+    height: 390px;
+    background-color: aqua;
 
+}
 
+.text-container{
+    width: 390px;
+    height: 380px;
+
+    background-color: blueviolet;
+}
+
+section.last{
+    height: 1100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section .text-container-last{
+    height: 160px;
+    width: 870px;
+    background-color: blueviolet;
+}
+    
+
+section .img-container-last{
+    height: 530px;
+    width: 950px;
+    background-color: aqua;
+}
+
+section .link-container-last{
+    width: 560px;
+    height: 170px;
+}
+
+.link-container-last div{
+    height: 50%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+                      /* /main */
+                     
