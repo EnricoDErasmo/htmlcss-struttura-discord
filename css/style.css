@@ -2,4 +2,141 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    border: 1px solid black;
+    /* test */
 }
+
+header{
+    height: 500px;
+    background-color: bisque;
+}
+
+.centered{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+                  /* header */
+
+/* navbar */
+
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    height: 60px;
+
+}
+
+#logo{
+    height: 60px;
+    width: 180px;
+    background-color: blueviolet;
+     /*test  */
+}
+
+#navbar{
+    height: 60px;
+    width: 600px;
+    background-color: blue;
+      /*test  */
+    
+    display: flex;
+    align-items: center;
+
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+
+    list-style-type: none;
+}
+
+#navbar li{
+    height: 30px;
+    width: 100px;
+    background-color: aqua;
+    /* test */  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#login{
+    height: 60px;
+    width: 180px;
+    background-color: blueviolet;
+      /*test  */
+}
+/* /navbar */
+
+ /* title */
+
+.title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 440px;
+}
+
+.title-inner-container{
+    display: flex;
+    flex-direction: column;
+
+    height: 250px;
+    width: 700px;
+
+    background-color: blue;
+}
+
+#title{
+    height: 60px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+#paragraph{
+    height: 130px;
+     width: 100%;
+     background-color: aqua;
+}
+
+#link-container{
+    height:60px;
+     width: 100%;
+     background-color: blueviolet;
+
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+.but{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ /*/ title */
+
+                     /* /header */
+
+
+
+
+
+
+
