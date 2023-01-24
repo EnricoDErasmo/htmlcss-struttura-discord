@@ -8,12 +8,11 @@
 }
 
 header{
-    height: 500px;
     background-color: bisque;
 }
 
 .centered{
-    width: 1200px;
+    width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,51 +30,43 @@ a{
     flex-direction: row;
     justify-content: space-between;
     
-    height: 60px;
-
+    width: 100%;
+    height: 70px;
 }
 
 .logo{
-    height: 60px;
-    width: 180px;
+    height: 70px;
+    width: 100px;
     background-color: blueviolet;
      /*test  */
 }
 
 #navbar{
-    height: 60px;
-    width: 600px;
-    background-color: blue;
-      /*test  */
-    
     display: flex;
-    align-items: center;
-
+    align-items: stretch;
 }
 
 #navbar ul{
     display: flex;
     flex-direction: row;
+  
     justify-content: space-between;
-
-    width: 100%;
+    align-items: center;
+    gap: 34px;
 
     list-style-type: none;
 }
 
 #navbar li{
     height: 30px;
-    width: 100px;
+    width: 60px;
     background-color: aqua;
     /* test */  
-    display: flex;
-    justify-content: center;
-    align-items: center; 
 }
 
 #login{
-    height: 60px;
-    width: 180px;
+    height: 70px;
+    width: 100px;
     background-color: blueviolet;
       /*test  */
 }
@@ -88,15 +79,21 @@ a{
     justify-content: center;
     align-items: center;
 
-    height: 440px;
+    min-height: 400px;
+
+    padding: 40px 0;
 }
 
 .title-inner-container{
     display: flex;
     flex-direction: column;
 
-    height: 250px;
-    width: 700px;
+    width: 100%;
+    max-width: 600px;
+
+    gap: 12px;
+
+    text-align: center;
 
     background-color: blue;
 }
@@ -105,12 +102,14 @@ a{
     height: 60px;
     width: 100%;
     background-color: blueviolet;
+    /* test */
 }
 
 #paragraph{
     height: 130px;
      width: 100%;
      background-color: aqua;
+     /* test */
 }
 
 #link-container{
@@ -121,6 +120,7 @@ a{
      display: flex;
      flex-direction: row;
      justify-content: center;
+     gap: 2em;
 }
 
 .but{
@@ -137,100 +137,135 @@ a{
 
                      /* main */
 section{
-    height: 600px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-
+    padding: 3em 0;
 }
 
-section.reverse{
+section .section-inner{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+
+    min-height: 300px;
+}
+
+section .section-inner.reverse{
     flex-direction: row-reverse;
 }
 
 .img-container{
-    width: 550px;
-    height: 390px;
+    width: 400px;
+    height: 200px;
     background-color: aqua;
-
 }
 
 .text-container{
-    width: 390px;
-    height: 380px;
+    height: 300px;
+    flex-grow: 1;
+
+    max-width: 60%;
+    min-width: 30%;
 
     background-color: blueviolet;
 }
 
-section.last{
-    height: 1100px;
-
+section > .last{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 section .text-container-last{
-    height: 160px;
-    width: 870px;
+    height: 100px;
+    width: 100%;
+    max-width: 700px;
     background-color: blueviolet;
 }
     
 
 section .img-container-last{
-    height: 530px;
-    width: 950px;
+    height: 500px;
+    width: 800px;
     background-color: aqua;
 }
 
 section .link-container-last{
-    width: 560px;
-    height: 170px;
+    display: flex;
+    flex-direction: column;
+
+    height: 100px; 
+    width: 400px; 
 }
 
-.link-container-last div{
-    height: 50%;
-    width: 100%;
-    background-color: blueviolet;
+.link-container-last img{
+    flex-grow: 3;  
 }
+
+.link-container-last button{
+flex-grow: 1;
+}
+
 
                       /* /main */
 
                       /* footer */
 
 footer{
-    height: 560px;
-
-
     background-color: black;
 }
 
 .foot-container{
     display: flex;
     flex-direction: row;
-    align-items: stretch;
     justify-content: space-between;
+    gap: 10px;
 
-    height: 500px; 
+    padding-top: 20px;
 }
 
+.foot-left{
+    width: 200px;
+    height: 300px;
+}
 
-.foot-item{
-    width: 230px;
+.foot-left .foot-text-left{
+    width: 100%;
+    height: 200px;
+}
+
+.foot-right{
+    display: flex;
+    flex-grow: 1;
+    
+    max-width: 500px;
+}
+
+.foot-link-list{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.foot-right ul{
+    list-style-type: none;
 }
 
 .footbar{
-    height: 60px;
-
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+
+    padding: 20px 0;
 }
 
-#register{
-    height: 60px;
-    width: 180px;
+.footbar #register{
+    height: 70px;
+    width: 100px;
     background-color: blueviolet;
 }
+
+
+
+
+
+
                      
